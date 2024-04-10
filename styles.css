@@ -1,0 +1,51 @@
+body {
+  background-color: seagreen;
+}
+
+#game-container {
+  width: 500px; /* 調整適應四張卡片一排 */
+  height: auto; /* 自動調整高度以適應內容 */
+  margin: 0 auto;
+  display: flex; /* 使用 Flexbox 進行排列 */
+  flex-wrap: wrap; /* 允許元素換行 */
+  justify-content: space-around; /* 均勻排列卡片 */
+  border: 1px solid #ccc;
+}
+
+.titleName {
+  font-size: 100px;
+  text-align: center;
+}
+
+.card {
+  width: 100px;
+  height: 130px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  cursor: pointer;
+  position: relative; /* 用於定位卡片的正反面 */
+}
+
+.front, .back {
+  width: 100px;
+  height: 130px;
+  position: absolute; /* 絕對定位 */
+  top: 0;
+  left: 0;
+  transition: transform 0.6s; /* 平滑翻轉效果 */
+  backface-visibility: hidden; /* 隱藏翻轉時的背面 */
+}
+
+.back {
+  transform: rotateY(180deg); /* 預設反面朝上 */
+}
+
+.card.flipped .front {
+  transform: rotateY(180deg); /* 被點擊時正面朝上 */
+}
+
+.card.flipped .back {
+  transform: rotateY(360deg); /* 被點擊時反面朝下 */
+}
+
