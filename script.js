@@ -34,7 +34,7 @@ const cards = [
 ];
 
 let flippedCards = [];
-// 遊戲內容
+
 function flipCard(card) {
   if (
     !card.classList.contains("flipped") &&
