@@ -1,37 +1,38 @@
 const cards = [
   {
-    front: "/images/card_back.png",
-    back: "/images/青眼白龍_怪獸.png",
+    front: "./images/card_back.png",
+    back: "./images/blue-eyes-monster.png",
   },
   {
-    front: "/images/card_back.png",
-    back: "/images/青眼白龍_怪獸.png",
+    front: "./images/card_back.png",
+    back: "./images/blue-eyes-monster.png",
   },
   {
-    front: "/images/card_back.png",
-    back: "/images/青眼白龍_靈.png",
+    front: "./images/card_back.png",
+    back: "./images/blue-eyes-spirit.png",
   },
   {
-    front: "/images/card_back.png",
-    back: "/images/青眼白龍_靈.png",
+    front: "./images/card_back.png",
+    back: "./images/blue-eyes-spirit.png",
   },
   {
-    front: "/images/card_back.png",
-    back: "/images/青眼白龍_魔法.png",
+    front: "./images/card_back.png",
+    back: "./images/blue-eyes-spell.png",
   },
   {
-    front: "/images/card_back.png",
-    back: "/images/青眼白龍_魔法.png",
+    front: "./images/card_back.png",
+    back: "./images/blue-eyes-spell.png",
   },
   {
-    front: "/images/card_back.png",
-    back: "/images/青眼白龍_陷阱.png",
+    front: "./images/card_back.png",
+    back: "./images/blue-eyes-trap.png",
   },
   {
-    front: "/images/card_back.png",
-    back: "/images/青眼白龍_陷阱.png",
+    front: "./images/card_back.png",
+    back: "./images/blue-eyes-trap.png",
   },
 ];
+
 
 let flippedCards = [];
 
